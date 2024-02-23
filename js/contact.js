@@ -1,5 +1,3 @@
-const send = document.querySelector('#send');
-
-send.addEventListener( 'click', () => {
+function send(){
     alert('Agradecemos o feedback!');
-});
+}
