@@ -1,0 +1,106 @@
+@font-face {
+    font-family: studly;
+    src: url(../font/Studly\ Regular.otf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu.active{
+    display: flex;
+}
+
+.menu{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.nav{
+    width: 20vw;
+    height: 100vh;
+    background-color: #292929;
+    padding: 10px 20px 0px 50px;
+}
+
+.nav button{
+    width: 150px;
+    height: 80px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav button img{
+    height: 40px;
+}
+
+.nav div{
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav a{
+    height: 80px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav ul div{
+    width: 45%;
+}
+
+nav{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: #fff solid 2px;
+}
+
+nav button{
+    background: none;
+    border: none;
+}
+
+nav button>img{
+    height: 40px;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 100%;
+}

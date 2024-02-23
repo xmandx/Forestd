@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+}
+
+h1{
+    font-size: 50px;
+    padding: 15px 0px 15px 0px;
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+}
+
+header{
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: 10%;
+}
+
+article{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+article p{
+    width: 700px;
+    padding: 0;
+}
+
+header>div{
+    width: 90vw;
+    height: 2px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+section{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section>div{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section>div p{
+    padding: 0;
+    width: 680px;
+}
+
+#title{
+    padding: 20px 0px 0px 0px;
+}
+
+#learn{
+    padding: 40px 0px 25px 0px;
+}
+
+section>div h1{
+    padding: 5px 0px 5px 0px;
+    font-size: 45px;
+}
+
+section>div div{
+    width: 500px;
+    height: 2px;
+    background-color: #fff;
+}
+
+main{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main>div{
+    width: 250px;
+    height: 300px;
+    background-color: #00290d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+main>div:hover .content{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.699);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.content{
+    display: none;
+}
+
+main>div:hover .title{
+    color: transparent;
+}
+
+#card1{
+    background-image: url(../img/station.jpg);
+    background-size: cover;
+}
+
+#card2{
+    background-image: url(../img/biological.jpg);
+    background-size: cover;
+}
+
+#card3{
+    background-image: url(../img/park.jpg);
+    background-size: cover;
+}
+
+#card4{
+    background-image: url(../img/monument.jpg);
+    background-size: cover;
+}
+
+#card5{
+    background-image: url(../img/wildlife.jpg);
+    background-size: cover;
+}
+
+section a{
+    border: #fff solid 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    margin: 20px 0px 10px 0px;
+}
+
+section a:hover{
+    background-color: #fff;
+    color: #00290d;
+}
+
