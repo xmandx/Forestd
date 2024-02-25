@@ -87,11 +87,11 @@ section>div p{
 }
 
 #title{
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
 }
 
 #learn{
-    padding: 40px 0px 25px 0px;
+    padding: 20px 0px 25px 0px;
 }
 
 section>div h1{
@@ -186,3 +186,48 @@ section a:hover{
     color: #00290d;
 }
 
+@media screen and (max-width: 450px) {
+    article p{
+        width: 100%;
+    }
+
+    section{
+        width: 90vw;
+        height: auto;
+    }
+
+    section>div p{
+        width: 90vw;
+        text-align: left;
+    }
+
+    section>div h1{
+        width: 90vw;
+        text-align: left;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .cards{
+        margin-top: 15px;
+    }
+
+    #card1{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    main{
+        width: 95vw;
+    }
+
+    .cards{
+        width: 145px;
+        height: 200px;
+    }
+}

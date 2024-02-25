@@ -16,23 +16,24 @@ footer{
     align-items: flex-start;
 }
 
-aside{
+footer aside{
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-aside div{
+footer aside div{
     display: flex;
     flex-direction: row;
 }
 
-aside div img{
+footer aside div img{
     height: 50px;
 }
 
-aside p{
+footer aside p{
     padding: 0;
 }
 
@@ -51,6 +52,10 @@ ul a{
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+}
+
+ul a:hover{
+    color: #ffffff7a;
 }
 
 .line{
