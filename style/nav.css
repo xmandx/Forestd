@@ -152,7 +152,7 @@ nav button>img{
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     nav{
         height: 8vh;
     }
@@ -172,20 +172,5 @@ nav button>img{
 
     .nav ul div{
         width: 80%;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    .menu>button{
-        width: 60%;
-    }
-
-    .nav{
-        width: 40%;
-        padding: 10px 20px 0px 20px;
-    }
-
-    .nav ul div{
-        width: 50%;
     }
 }

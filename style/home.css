@@ -186,7 +186,7 @@ section a:hover{
     color: #00290d;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     article p{
         width: 100%;
     }
@@ -213,21 +213,11 @@ section a:hover{
     }
 
     .cards{
+        
         margin-top: 15px;
     }
 
     #card1{
         margin: 0;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    main{
-        width: 95vw;
-    }
-
-    .cards{
-        width: 145px;
-        height: 200px;
     }
 }
